@@ -1,0 +1,208 @@
+﻿/*Main block for defining the font-family*/
+.mainBlock {
+	font-family:'Times New Roman', Times, serif
+}
+/*Main header block css*/
+.headerBlock {
+	margin: auto;
+	width: 50%;
+	border: 0px;
+	background-color: black;
+	height:70px;
+	padding: 0px;
+}
+/*Vertical line in the header*/
+.vertHeaderLine{
+	top: 0;
+	bottom: 0;
+	background-color: gray;
+	height: 100%;
+	width: 2px;
+	margin-left: 90px;
+	display:inline-block;
+}
+/*Vertical List line*/
+.vertListLine {
+	top: 0;
+	bottom: 0;
+	background-color: gray;
+	height: 49px;
+	width: 2px;
+	margin-left: 25px;
+	display: inline-block;
+}
+/*input class for new as well as existing task*/
+.taskeTxt,
+.newTask {
+	border: none;
+	height: 48px;
+	width: 380px;	
+}
+/*deleted task*/
+.taskTextDeleted {
+	text-decoration: line-through;
+	border: none;
+	height: 48px;
+	width: 380px;
+}
+/*focus on a input*/
+input:focus {
+	outline: none;
+}
+
+/*Text Area for each line*/
+.textArea {
+	vertical-align:top;
+	display:inline-block;	
+	font-size: 20px;
+}
+/*Div component for the upwards and downwards arrow*/
+.upperlowerDiv {
+	display: inline-block;
+	vertical-align:top;
+	margin-left:20px;
+	margin-top: 10px;
+}
+/*Header of the label*/
+.labelHeader {
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	font-size: 40px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	color: azure;
+	padding-top: 5px;
+	padding-left: 30px;
+}
+/*Checkbox for todo's*/
+.chkTodo {
+	vertical-align: top;
+	margin-left: 22px;
+	margin-top: 17px;
+	width: 42px;
+}
+/*Task item and new task*/
+.tasksItem,
+.newList {
+	margin: auto;
+	width: 50%;
+	border: 0px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid gray;
+	padding: 0px;
+}
+
+/*up and down arrow for priority handling*/
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+/*up arrow for priority handling*/
+.up {
+	transform: rotate(-135deg);
+	vertical-align:top;
+	display:block;
+	margin-left:5px;
+	-webkit-transform: rotate(-135deg);
+}
+/*down arrow for priority handling*/
+.down {
+	transform: rotate(45deg);
+	margin-left: 5px;
+	-webkit-transform: rotate(45deg);
+}
+/*Div for trash button*/
+.trashDiv{
+	margin-top:13px;
+	margin-left:10px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+/*Add new button*/
+.plus-button {
+	border: 2px solid lightgrey;
+	vertical-align: top;
+	background-color: #fff;
+	font-size: 16px;
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 999px;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 4px;
+}
+/*Add new button hover*/
+.plus-button:hover {
+	background-color: #b2b2b2;
+}
+
+.plus-button:after, .plus-button:before{
+content: "";
+display: block;
+background-color: grey;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.plus-button:before {
+	height: 1em;
+	width: 0.2em;
+}
+
+.plus-button:after {
+	height: 0.2em;
+	width: 1em;
+}
+
+/*trash icon*/
+.gg-trash {
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+	vertical-align:top;
+	transform: scale(var(--ggs,1));
+	width: 10px;
+	height: 12px;
+	border: 2px solid transparent;
+	box-shadow: 0 0 0 2px, inset -2px 0 0, inset 2px 0 0;
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 1px;
+	margin-top: 4px
+	
+}
+
+.gg-trash::after,
+.gg-trash::before {
+	content: "";
+	display: block;
+	box-sizing: border-box;
+	position: absolute
+}
+
+.gg-trash::after {
+	background: currentColor;
+	border-radius: 3px;
+	width: 16px;
+	height: 2px;
+	top: -4px;
+	left: -5px
+}
+
+.gg-trash::before {
+	width: 10px;
+	height: 4px;
+	border: 2px solid;
+	border-bottom: transparent;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	top: -7px;
+	left: -2px
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Increo_To_do_List", "Increo_To_do_List.csproj", "{9B08B5F4-CB98-4D35-8D9C-136904909399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList_DAL", "..\ToDoList_DAL\ToDoList_DAL.csproj", "{0B4A0A87-9517-44F7-99E1-2714A4183930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B08B5F4-CB98-4D35-8D9C-136904909399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B08B5F4-CB98-4D35-8D9C-136904909399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B08B5F4-CB98-4D35-8D9C-136904909399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B08B5F4-CB98-4D35-8D9C-136904909399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4A0A87-9517-44F7-99E1-2714A4183930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4A0A87-9517-44F7-99E1-2714A4183930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4A0A87-9517-44F7-99E1-2714A4183930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4A0A87-9517-44F7-99E1-2714A4183930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E62A58-204C-4F32-843B-9BC5049D0698}
+	EndGlobalSection
+EndGlobal

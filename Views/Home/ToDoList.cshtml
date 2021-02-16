@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "ToDoList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="mainBlock">    
+    <div class="headerBlock">
+        <div class="vertHeaderLine"></div>
+        <span class="labelHeader"><label>ToDo List</label></span>
+    </div>
+    <div id="tasksList">
+        
+    </div>
+    <div class="newList">
+        <div>
+            <button class="plus-button plus-button--small" onclick="AddNew()"></button>
+            <div class="vertListLine"></div>
+            <div class="textArea"><input type="text" id="newTask" class="newTask" autofocus></div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/toDo.js"type="text/javascript"></script>
+}
+
+@section Styles {
+    <link href="~/css/todo.css" rel="stylesheet" type="text/css">
+}
+
